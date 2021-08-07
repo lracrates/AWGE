@@ -13,11 +13,6 @@ message.Create(params)
 
 wait(5)
 
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local T12 = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local S = Instance.new("TextButton")
@@ -252,8 +247,6 @@ TextLabel_5.TextColor3 = Color3.fromRGB(255, 0, 4)
 TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 17.000
 TextLabel_5.TextWrapped = true
-
--- Scripts:
 
 local function NGRG_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
