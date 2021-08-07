@@ -339,12 +339,12 @@ local function NUWIGTH_fake_script() -- Main.LocalScript
 	
 	Input.MouseEnter:Connect(function()
 		CoolThing.Visible = true
-		CoolThing:TweenSize(UDim2.new(0, 150,0, 1))
+		CoolThing:TweenSize(UDim2.new(0, 150,0, 0.5))
 		
 	end)
 	
 	Input.MouseLeave:Connect(function()
-		CoolThing:TweenSize(UDim2.new(0, 1,0, 1))
+		CoolThing:TweenSize(UDim2.new(0, 1,0, 0.5))
 		wait(1)
 		CoolThing.Visible = false
 		
@@ -355,12 +355,12 @@ local function NUWIGTH_fake_script() -- Main.LocalScript
 	
 	Input2.MouseEnter:Connect(function()
 		CoolThing2.Visible = true
-		CoolThing2:TweenSize(UDim2.new(0, 150,0, 1))
+		CoolThing2:TweenSize(UDim2.new(0, 150,0, 0.5))
 	
 	end)
 	
 	Input2.MouseLeave:Connect(function()
-		CoolThing2:TweenSize(UDim2.new(0, 1,0, 1))
+		CoolThing2:TweenSize(UDim2.new(0, 1,0, 0.5))
 		wait(1)
 		CoolThing2.Visible = false
 	
@@ -371,12 +371,12 @@ local function NUWIGTH_fake_script() -- Main.LocalScript
 	
 	Input3.MouseEnter:Connect(function()
 		CoolThing3.Visible = true
-		CoolThing3:TweenSize(UDim2.new(0, 150,0, 1))
+		CoolThing3:TweenSize(UDim2.new(0, 150,0, 0.5))
 	
 	end)
 	
 	Input3.MouseLeave:Connect(function()
-		CoolThing3:TweenSize(UDim2.new(0, 1,0, 1))
+		CoolThing3:TweenSize(UDim2.new(0, 1,0, 0.5))
 		wait(1)
 		CoolThing3.Visible = false
 	
@@ -387,12 +387,12 @@ local function NUWIGTH_fake_script() -- Main.LocalScript
 	
 	Input4.MouseEnter:Connect(function()
 		CoolThing4.Visible = true
-		CoolThing4:TweenSize(UDim2.new(0, 150,0, 1))
+		CoolThing4:TweenSize(UDim2.new(0, 150,0, 0.5))
 	
 	end)
 	
 	Input4.MouseLeave:Connect(function()
-		CoolThing4:TweenSize(UDim2.new(0, 1,0, 1))
+		CoolThing4:TweenSize(UDim2.new(0, 1,0, 0.5))
 		wait(1)
 		CoolThing4.Visible = false
 	
