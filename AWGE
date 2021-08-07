@@ -1,18 +1,3 @@
-local message = loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/UI-Libraries/main/MessageCreate.lua"))()
-
---create parameters
-local params = {
-    PrimaryColor = Color3.fromRGB(0,0,0), 
-    SecondaryColor = Color3.fromRGB(255,255,255),  
-    Texts = {
-        {Text = "AWGE", Delay = 2},     
-    }
-}
-
-message.Create(params)
-
-wait(5)
-
 local T12 = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local S = Instance.new("TextButton")
