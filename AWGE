@@ -21,13 +21,10 @@ wait(5)
 local T12 = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local S = Instance.new("TextButton")
-local CoolThing1 = Instance.new("TextLabel")
 local C = Instance.new("TextButton")
 local P = Instance.new("TextButton")
 local K = Instance.new("TextButton")
-local CoolThing3 = Instance.new("TextLabel")
-local CoolThing4 = Instance.new("TextLabel")
-local CoolThing2 = Instance.new("TextLabel")
+local CoolThing1 = Instance.new("TextLabel")
 local First = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local Checker = Instance.new("Frame")
@@ -48,22 +45,21 @@ local TextLabel_5 = Instance.new("TextLabel")
 --Properties:
 
 T12.Name = "T12"
-T12.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+T12.Parent = game.SoundService
 T12.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
 Main.Parent = T12
 Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Main.BackgroundTransparency = 0.350
-Main.Position = UDim2.new(-0.000293095916, 0, -0.0665401146, 0)
+Main.Position = UDim2.new(-0.000293095916, 0, -0.0688180178, 0)
 Main.Size = UDim2.new(0, 1921, 0, 1122)
-Main.Visible = false
 
 S.Name = "S"
 S.Parent = Main
 S.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 S.BackgroundTransparency = 1.000
-S.Position = UDim2.new(0.396023482, 0, 0.166579679, 0)
+S.Position = UDim2.new(0.396023482, 0, 0.158558294, 0)
 S.Size = UDim2.new(0, 182, 0, 60)
 S.Font = Enum.Font.SourceSansLight
 S.Text = "SHIELD"
@@ -72,24 +68,11 @@ S.TextScaled = true
 S.TextSize = 14.000
 S.TextWrapped = true
 
-CoolThing1.Name = "CoolThing1"
-CoolThing1.Parent = Main
-CoolThing1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing1.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing1.Position = UDim2.new(0.305494308, 0, 0.211750746, 0)
-CoolThing1.Size = UDim2.new(0.00100000005, 0, 0, 1)
-CoolThing1.Font = Enum.Font.SourceSans
-CoolThing1.Text = ""
-CoolThing1.TextColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing1.TextSize = 14.000
-CoolThing1.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing1.TextStrokeTransparency = 0.000
-
 C.Name = "C"
 C.Parent = Main
 C.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 C.BackgroundTransparency = 1.000
-C.Position = UDim2.new(0.600604415, 0, 0.166579679, 0)
+C.Position = UDim2.new(0.600604415, 0, 0.158558294, 0)
 C.Size = UDim2.new(0, 179, 0, 60)
 C.Font = Enum.Font.SourceSansLight
 C.Text = "CREDIT"
@@ -102,7 +85,7 @@ P.Name = "P"
 P.Parent = Main
 P.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 P.BackgroundTransparency = 1.000
-P.Position = UDim2.new(0.501177073, 0, 0.166579679, 0)
+P.Position = UDim2.new(0.501177073, 0, 0.158558294, 0)
 P.Size = UDim2.new(0, 179, 0, 60)
 P.Font = Enum.Font.SourceSansLight
 P.Text = "PLAYER"
@@ -115,7 +98,7 @@ K.Name = "K"
 K.Parent = Main
 K.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 K.BackgroundTransparency = 1.000
-K.Position = UDim2.new(0.305999994, 0, 0.166579679, 0)
+K.Position = UDim2.new(0.305999994, 0, 0.158558294, 0)
 K.Size = UDim2.new(0, 153, 0, 60)
 K.Font = Enum.Font.SourceSansLight
 K.Text = "KOPIS"
@@ -124,44 +107,18 @@ K.TextScaled = true
 K.TextSize = 14.000
 K.TextWrapped = true
 
-CoolThing3.Name = "CoolThing3"
-CoolThing3.Parent = Main
-CoolThing3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing3.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing3.Position = UDim2.new(0.5, 0, 0.212642014, 0)
-CoolThing3.Size = UDim2.new(0.00100000005, 0, 0, 0)
-CoolThing3.Font = Enum.Font.SourceSans
-CoolThing3.Text = ""
-CoolThing3.TextColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing3.TextSize = 14.000
-CoolThing3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing3.TextStrokeTransparency = 0.000
-
-CoolThing4.Name = "CoolThing4"
-CoolThing4.Parent = Main
-CoolThing4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing4.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing4.Position = UDim2.new(0.600000024, 0, 0.212642014, 0)
-CoolThing4.Size = UDim2.new(0.00100000005, 0, 0, 0)
-CoolThing4.Font = Enum.Font.SourceSans
-CoolThing4.Text = ""
-CoolThing4.TextColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing4.TextSize = 14.000
-CoolThing4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing4.TextStrokeTransparency = 0.000
-
-CoolThing2.Name = "CoolThing2"
-CoolThing2.Parent = Main
-CoolThing2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing2.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing2.Position = UDim2.new(0.400000006, 0, 0.212642014, 0)
-CoolThing2.Size = UDim2.new(0.00100000005, 0, 0, 0)
-CoolThing2.Font = Enum.Font.SourceSans
-CoolThing2.Text = ""
-CoolThing2.TextColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing2.TextSize = 14.000
-CoolThing2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-CoolThing2.TextStrokeTransparency = 0.000
+CoolThing1.Name = "CoolThing1"
+CoolThing1.Parent = Main
+CoolThing1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CoolThing1.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CoolThing1.Position = UDim2.new(0.305494279, 0, 0.212642014, 0)
+CoolThing1.Size = UDim2.new(0.388322353, 0, -9.99999975e-05, 0)
+CoolThing1.Font = Enum.Font.SourceSans
+CoolThing1.Text = ""
+CoolThing1.TextColor3 = Color3.fromRGB(255, 255, 255)
+CoolThing1.TextSize = 14.000
+CoolThing1.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+CoolThing1.TextStrokeTransparency = 0.000
 
 First.Name = "First"
 First.Parent = T12
@@ -298,7 +255,7 @@ TextLabel_5.TextWrapped = true
 
 -- Scripts:
 
-local function GAXT_fake_script() -- Main.LocalScript 
+local function NGRG_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local Plr = game.Players.LocalPlayer
@@ -309,8 +266,8 @@ local function GAXT_fake_script() -- Main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GAXT_fake_script)()
-local function HZBX_fake_script() -- Main.LocalScript 
+coroutine.wrap(NGRG_fake_script)()
+local function AHVWXPY_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local Plr = game.Players.LocalPlayer
@@ -321,88 +278,8 @@ local function HZBX_fake_script() -- Main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HZBX_fake_script)()
-local function NUWIGTH_fake_script() -- Main.LocalScript 
-	local script = Instance.new('LocalScript', Main)
-
-	local CoolThing = script.Parent.CoolThing1
-	local Input = script.Parent.K
-	local CoolThing2 = script.Parent.CoolThing2
-	local Input2 = script.Parent.S
-	local CoolThing3 = script.Parent.CoolThing3
-	local Input3 = script.Parent.P
-	local CoolThing4 = script.Parent.CoolThing4
-	local Input4 = script.Parent.C
-	
-	CoolThing.Visible = false
-	
-	
-	Input.MouseEnter:Connect(function()
-		CoolThing.Visible = true
-		CoolThing:TweenSize(UDim2.new(0, 150,0, 0.5))
-		
-	end)
-	
-	Input.MouseLeave:Connect(function()
-		CoolThing:TweenSize(UDim2.new(0, 1,0, 0.5))
-		wait(1)
-		CoolThing.Visible = false
-		
-	end)
-	
-	CoolThing2.Visible = false
-	
-	
-	Input2.MouseEnter:Connect(function()
-		CoolThing2.Visible = true
-		CoolThing2:TweenSize(UDim2.new(0, 150,0, 0.5))
-	
-	end)
-	
-	Input2.MouseLeave:Connect(function()
-		CoolThing2:TweenSize(UDim2.new(0, 1,0, 0.5))
-		wait(1)
-		CoolThing2.Visible = false
-	
-	end)
-	
-	CoolThing3.Visible = false
-	
-	
-	Input3.MouseEnter:Connect(function()
-		CoolThing3.Visible = true
-		CoolThing3:TweenSize(UDim2.new(0, 150,0, 0.5))
-	
-	end)
-	
-	Input3.MouseLeave:Connect(function()
-		CoolThing3:TweenSize(UDim2.new(0, 1,0, 0.5))
-		wait(1)
-		CoolThing3.Visible = false
-	
-	end)
-	
-	CoolThing4.Visible = false
-	
-	
-	Input4.MouseEnter:Connect(function()
-		CoolThing4.Visible = true
-		CoolThing4:TweenSize(UDim2.new(0, 150,0, 0.5))
-	
-	end)
-	
-	Input4.MouseLeave:Connect(function()
-		CoolThing4:TweenSize(UDim2.new(0, 1,0, 0.5))
-		wait(1)
-		CoolThing4.Visible = false
-	
-	end)
-	
-	
-	
-end
-coroutine.wrap(NUWIGTH_fake_script)()
-local function OQRZ_fake_script() -- KeyResponse.LocalScript 
+coroutine.wrap(AHVWXPY_fake_script)()
+local function GYFI_fake_script() -- KeyResponse.LocalScript 
 	local script = Instance.new('LocalScript', KeyResponse)
 
 	local Main = script.Parent.Parent.Parent.Parent.First
@@ -420,4 +297,4 @@ local function OQRZ_fake_script() -- KeyResponse.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OQRZ_fake_script)()
+coroutine.wrap(GYFI_fake_script)()
