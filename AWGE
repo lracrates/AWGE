@@ -40,7 +40,7 @@ local TextLabel_5 = Instance.new("TextLabel")
 --Properties:
 
 T12.Name = "T12"
-T12.Parent = game.SoundService
+T12.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 T12.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
@@ -49,6 +49,7 @@ Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Main.BackgroundTransparency = 0.350
 Main.Position = UDim2.new(-0.000293095916, 0, -0.0688180178, 0)
 Main.Size = UDim2.new(0, 1921, 0, 1122)
+Main.Visible = false
 
 S.Name = "S"
 S.Parent = Main
@@ -248,7 +249,7 @@ TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 17.000
 TextLabel_5.TextWrapped = true
 
-local function NGRG_fake_script() -- Main.LocalScript 
+local function OEHXLMQ_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local Plr = game.Players.LocalPlayer
@@ -259,8 +260,8 @@ local function NGRG_fake_script() -- Main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NGRG_fake_script)()
-local function AHVWXPY_fake_script() -- Main.LocalScript 
+coroutine.wrap(OEHXLMQ_fake_script)()
+local function QGKSQJ_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local Plr = game.Players.LocalPlayer
@@ -271,8 +272,8 @@ local function AHVWXPY_fake_script() -- Main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AHVWXPY_fake_script)()
-local function GYFI_fake_script() -- KeyResponse.LocalScript 
+coroutine.wrap(QGKSQJ_fake_script)()
+local function KGKGRVJ_fake_script() -- KeyResponse.LocalScript 
 	local script = Instance.new('LocalScript', KeyResponse)
 
 	local Main = script.Parent.Parent.Parent.Parent.First
@@ -290,4 +291,4 @@ local function GYFI_fake_script() -- KeyResponse.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GYFI_fake_script)()
+coroutine.wrap(KGKGRVJ_fake_script)()
